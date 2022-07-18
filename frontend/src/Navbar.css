@@ -1,0 +1,71 @@
+.navbar-main {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 50px;
+  background-color: black;
+  color: white;
+  width: 100%;
+}
+
+.navbar-logo-inner {
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  background-color: white;
+}
+.navbar-logo-mid {
+  background-color: black;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.navbar-logo-outer {
+  background-color: white;
+  height: 35px;
+  width: 35px;
+  border-radius: 30%;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar-search-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  height: 40px;
+  width: 230px;
+  background-color: rgb(40, 41, 44);
+  border-radius: 10px;
+}
+
+.navbar-search-field {
+  padding-left: 5px;
+  color: rgb(213, 203, 203);
+  background-color: rgb(40, 41, 44);
+
+  height: 25px;
+  border: none;
+  color: beige;
+  font-size: 15px;
+  outline: none;
+}
+.navbar-dropdown-wrapper {
+  color: white;
+  height: 40px;
+  width: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbar-dropdown-wrapper:hover {
+  cursor: pointer;
+  background-color: rgb(80, 81, 83);
+  border-radius: 30%;
+}
