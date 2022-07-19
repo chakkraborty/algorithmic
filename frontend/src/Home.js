@@ -1,7 +1,7 @@
 import React from "react";
-
+import "./Home.css";
 const Home = () => {
-  return <div>Home</div>;
+  return <div className="home-center-col">center col</div>;
 };
 
 export default Home;
